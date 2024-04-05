@@ -449,7 +449,7 @@ def shoha_menu():
     uuid = str(os.geteuid()) + str(os.getlogin()) 
     id = "5".join(uuid)
     print(logo)
-    DARK=requests.get("https://github.com/taxs-404/approval/blob/main/approval.txt").text
+    DARK=requests.get("https://github.com/klint-405/approval/blob/main/approval.txt").text
     if id in DARK:
         SEVEN()
     else:
